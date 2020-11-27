@@ -1,0 +1,12 @@
+.input-group-text{
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    border: none;
+}
+@media (min-width: 1200px) {
+    .container-create-post{
+        width: 850px;
+        margin: auto;
+    }
+  }

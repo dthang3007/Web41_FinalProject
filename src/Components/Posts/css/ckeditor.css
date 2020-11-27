@@ -1,0 +1,20 @@
+.ck{
+    height: 100vh;
+}
+.ck .ck-toolbar__items{
+    border: none;
+}
+.ck .ck-toolbar .ck-toolbar_grouping{
+    border: none !important;
+ 
+}
+.ck.ck-toolbar {
+    border:none;
+    background-color: #fff;
+}
+.ck .ck-content .ck-editor__editable .ck-rounded-corners .ck-editor__editable_inline .ck-blurred{
+    border:none;
+}
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+     border:none;
+}

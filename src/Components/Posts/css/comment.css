@@ -1,0 +1,55 @@
+.comment-box {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+.comment-box .comment-form input {
+  padding-left: 15px;
+
+  width: 80%;
+}
+.comment-box .comment-form {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+}
+.comment-box .comment-form button {
+  background-color: #fff;
+  color: #2fb5fa;
+  width: 20%;
+  border: none;
+  margin-left: 10x;
+}
+.comment-box .comment-form input:focus {
+  border: none;
+}
+.comment-box .comment-form .comments .no-comment {
+  background: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  padding: 40px 15px 30px;
+  color: #999;
+  display: block;
+  text-decoration: none;
+}
+.comment-box .comments .no-comment .icon-comment-large {
+  height: 105px;
+  width: 120px;
+  margin: 30px auto
+
+}
+.comment-box .comments .no-comment .icon-comment-large .icon-comment-bubble{
+    height: 80px;
+    width: 120px;
+    margin: 0 auto;
+    background: #DDD;
+    border-radius: 5px;
+}
+.comment-box .comments .no-comment .icon-comment-large .icon-comment-arrow{
+    border-top: 25px solid #DDD;
+    border-right: 25px solid transparent;
+    width: 0;
+    height: 0;
+    margin-left: 25px;
+}
+
+
